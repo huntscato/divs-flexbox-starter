@@ -108,6 +108,42 @@ body {
   height: 100%;
 }
 
+header,
+footer {
+  background-color: rgb(205, 167, 220);
+  height: 80px;
+  width: 100%;
+  border: solid 2px rgba(0, 231, 0, 0.607);
+
+}
+
+main {
+  background-color: rgb(228, 133, 133);
+  height: 250px;
+  width: 100%;
+  border: solid 2px rgba(0, 231, 0, 0.607);
+  font-family: Lexend;
+}
+
+header {
+   
+    font-family: 'Rampart One';
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+    padding-left: 5px
+    
+}
+
+header,
+footer,
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
